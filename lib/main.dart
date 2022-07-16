@@ -5,7 +5,8 @@ import 'check_internet_widget.dart';
 import 'data/check_internet_connection_provider.dart';
 
 void main() {
-  runApp(ChangeNotifierProvider(create: (_) => CheckInternet(),
+  runApp(
+      ChangeNotifierProvider(create: (_) => CheckInternet(),
       child: const MyApp()));
 }
 
